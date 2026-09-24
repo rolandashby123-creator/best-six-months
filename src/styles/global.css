@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Parisienne&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #33272b;
+  background: #241b1e;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { min-height: 100%; margin: 0; }
+body { min-height: 100vh; overflow-x: hidden; }
+button { font: inherit; }
+
+::selection {
+  background: rgba(209, 145, 162, .28);
+  color: inherit;
+}
